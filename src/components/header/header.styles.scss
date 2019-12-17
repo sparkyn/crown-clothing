@@ -1,0 +1,26 @@
+.header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* pushes the elements apart as far as possible with any space they don't take up themselves */
+    margin-bottom: 25px;
+  
+    .logo-container {
+      height: 100%;
+      width: 70px;
+      padding: 25px;
+    }
+  
+    .options {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end; /* puts them always at the end of the flex box, i.e. on the right side */
+  
+      .option {
+        padding: 10px 15px;
+      }
+    }
+  }
+  
